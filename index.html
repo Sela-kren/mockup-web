@@ -10,8 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="flex flex-col w-[393px] h-[852px] bg-gray-100 m-auto mt-[10px] rounded-lg">
-        <div class="flex flex-row justify-start items-center w-[100%] h-[5%] bg-gray-100">
+    <div class="flex flex-col w-[393px] h-[852px] m-auto mt-[10px] rounded-lg items-center pt-1  space-y-5 border-black border">
+        <div class="flex flex-row justify-start items-center rounded-t-lg w-[100%] h-[5%">
             <p class="text-[16px] font-bold pl-4">9:41</p>
             <div class="flex flex-row justify-center itmes-center">
                 <div class="text-2xl ml-[250px]"><i class='bx bx-signal-4' ></i></div>
@@ -19,7 +19,17 @@
                 <div class="text-2xl mt-[6px]"><i class="gg-battery-full mt-[6px] ml-[3px]"></i></div>
             </div>   
         </div>
-        <div class="w-[343px] h-[567px] bg-blue-300"></div>
+        <!-- input for image -->
+        <div class="w-[343px] h-[567px] relative rounded-lg shadow-lg shadow-gray-400 "> 
+            <img src="./assets/image/marios.jpg " class="w-auto h-full object-cover rounded-lg drop-shadow-xl border-blue-400 border-2" alt="">
+            <img src="/assets/image/demonia.png"  class="absolute top-10 left-1/2 translate-x-[-50%]"alt="">
+        </div>
+        <div class="drop-shadow-lg pt-1 text-xl font-bold">best way to invest your money!</div>
+
+        <div class="flex flex-col space-y-5 w-fit h-fit pt-5">
+            <div class="w-[260px] h-[36px] bg-blue-400 rounded-xl flex items-baseline justify-center font-semibold text-white"><p class="translate-y-1">sign up</p></div>
+            <div class="w-[260px] h-[36px] bg-white rounded-xl flex items-baseline justify-center font-semibold text-black border border-gray-300"><p class="translate-y-1">sign in</p></div>
+        </div>
     </div>
 </body>
 </html>
